@@ -1,0 +1,55 @@
+# Binaries (编译产物)
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+bin/
+dist/
+
+# Service binaries (服务二进制文件)
+/cmd/resume-service/resume-service
+/cmd/interview-service/interview-service
+/cmd/search-service/search-service
+/cmd/gateway/gateway
+
+# Test coverage (测试覆盖率)
+*.out
+coverage.html
+coverage.txt
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Environment (环境配置)
+.env
+.env.local
+.env.*.local
+*.local.yaml
+configs/config.yaml
+
+# Logs (日志)
+logs/
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Dependencies
+vendor/
+
+# Generated protobuf (保留生成的代码)
+# internal/shared/pb/
+
+# Temporary files (临时文件)
+*.tmp
+*.temp
+screenshot.png
+test-report.md
+
+# Docker (可选，本地开发)
+# deployments/.env
